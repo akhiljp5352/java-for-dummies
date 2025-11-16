@@ -40,5 +40,20 @@ class Main {
 ```
 We refer the `functions` inside the class as `methods`.
 
-In Java, all these classes and methods should have `access modifiers`.
+In Java, all these classes and methods should have an `access modifier`.
+
+### Access Modifier
+
+It is a special keyword that determines if other methods and classes can access this class or method. The common ones are:
+- private
+- public
+
+```java
+public class Main {
+  public void main() {
+    ...
+  }
+}
+```
+The above is the basic structure of a java program.
 

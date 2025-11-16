@@ -122,6 +122,13 @@ type varaiableName = value;
 | char    | 2             | 0 to 65,535                                             |
 | boolean | JVM-dependent | true or false                                           |
 
+```java
+byte x = 1;
+byte y = x;
+```
+
+x and y are indenpendly created and values are stored in differnt locations.
+
 ### Reference Type
 
 To store complex objects.
@@ -133,6 +140,8 @@ This is the blue print.
 
 ```java
 Date now = new Date();
+Date then = now;
 ```
+Here `now` stores the location or address of the value in the memory, not the actual value and `then` also gets that address.
 
 

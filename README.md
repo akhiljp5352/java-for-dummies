@@ -127,7 +127,7 @@ byte x = 1;
 byte y = x;
 ```
 
-x and y are indenpendly created and values are stored in differnt locations.
+x and y are indenpendly created and values are stored in differnt locations. Copying copies the value.
 
 ### Reference Type
 
@@ -142,6 +142,35 @@ This is the blue print.
 Date now = new Date();
 Date then = now;
 ```
-Here `now` stores the location or address of the value in the memory, not the actual value and `then` also gets that address.
+Here `now` stores the location or address of the value in the memory, not the actual value and `then` also gets that address. Copying copies the address or location.
+
+### Strings
+
+### Arrays
+
+```java
+int[] numbers = new int[5];
+```
+This creates an array of integers of size 5. To assaign values use 
+
+```java
+numbers[0] = 1;
+```
+new method
+
+```java
+int[] numbers = {12 ,4, 8, 7, 4};
+```
+
+### Implicit casting
+
+Automatic conversion of type.
+
+### Reading inputs
+
+```java
+Scanner scanner = new Scanner(System.in);
+byte age = scanner.nextByte();
+```
 
 

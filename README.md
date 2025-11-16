@@ -57,3 +57,7 @@ public class Main {
 ```
 The above is the basic structure of a java program.
 
+### Naming Conventions
+
+- For `classess` we use Pascal. eg: ClassName.
+- For `methods` we use camelCase. eg: functionName.

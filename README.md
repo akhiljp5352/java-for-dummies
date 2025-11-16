@@ -122,3 +122,17 @@ type varaiableName = value;
 | char    | 2             | 0 to 65,535                                             |
 | boolean | JVM-dependent | true or false                                           |
 
+### Reference Type
+
+To store complex objects.
+
+```java
+ClassName (imported or defined) objectname (we name) = new (keyword) ClassName() (creating an object or instance of class)
+```
+This is the blue print.
+
+```java
+Date now = new Date();
+```
+
+

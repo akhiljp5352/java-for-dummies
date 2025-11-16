@@ -24,7 +24,6 @@ returnType functionName(params) {
 `returnType` is the type of the data that is returned by the function. If the function doesn't return anything, keyword `void` is used.
 
 Every Java program should have a `main()` function. `main()` is the entry point. Whenever a Java program is called, the `main()` is executed.
-
 `Functions` cannot exist independently. They must always belong to a class.
 
 ### Class
@@ -50,14 +49,22 @@ It is a special keyword that determines if other methods and classes can access 
 
 ```java
 public class Main {
-  public void main() {
+  public static void main() {
     ...
   }
 }
 ```
-The above is the basic structure of a java program.
+The above is the basic structure of a java program. `main()` in the program should be always `static`.
 
 ### Naming Conventions
 
 - For `classess` we use Pascal. eg: ClassName.
 - For `methods` we use camelCase. eg: functionName.
+
+## My first Java Program
+
+- Open intellij ide.
+- Create new project.
+- Select Java. Make sure `project sdk` is not blank.
+- Create project from template. Command Line App.
+- Add project name, location and package name. A `package` is a colelction of inter connected classes. Usually package name is `com.companyname`.
